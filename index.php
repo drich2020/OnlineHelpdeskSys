@@ -5,7 +5,7 @@ if(!$users->isLoggedIn()) {
 } else {
 	header("Location: ticket.php");	
 }
-include('inc/header.php');
+include('includes/header.php');
 $user = $users->getUserInfo();
 ?>
 <title>Helpdesk System with PHP & MySQL</title>

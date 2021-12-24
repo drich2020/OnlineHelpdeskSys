@@ -4,10 +4,10 @@ if($users->isLoggedIn()) {
 	header('Location: ticket.php');
 }
 $errorMessage = $users->login();
-include('inc/header.php');
+include('includes/header.php');
 ?>
 <title>Online Helpdesk System </title>
-<?php include('inc/container.php');?>
+<?php include('includes/container.php');?>
 <div class="container contact">	
 	<h2>Online Helpdesk System</h2>	
 	<div class="col-md-6">                    
@@ -44,4 +44,4 @@ include('inc/header.php');
 		</div>  
 	</div>
 </div>	
-<?php include('inc/footer.php');?>
+<?php include('includes/footer.php');?>

@@ -3,7 +3,7 @@ include 'init.php';
 if(!$users->isLoggedIn()) {
 	header("Location: authenticate.php");	
 }
-include('inc/header.php');
+include('includes/header.php');
 $ticketDetails = $tickets->ticketInfo($_GET['id']);
 $ticketReplies = $tickets->getTicketReplies($ticketDetails['id']);
 $user = $users->getUserInfo();
