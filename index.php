@@ -8,7 +8,7 @@ if(!$users->isLoggedIn()) {
 include('includes/header.php');
 $user = $users->getUserInfo();
 ?>
-<title>Helpdesk System with PHP & MySQL</title>
+<title>Online Helpdesk System</title>
 <script src="js/jquery.dataTables.min.js"></script>
 <script src="js/dataTables.bootstrap.min.js"></script>		
 <link rel="stylesheet" href="css/dataTables.bootstrap.min.css" />
