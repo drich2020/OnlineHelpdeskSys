@@ -15,7 +15,7 @@ $user = $users->getUserInfo();
 <script src="js/general.js"></script>
 <script src="js/tickets.js"></script>
 <link rel="stylesheet" href="css/style.css" />
-<?php include('inc/container.php');?>
+<?php include('includes/container.php');?>
 <div class="container">	
 	<div class="row home-sections">
 	<h2>Online Helpdesk System</h2>	

@@ -11,5 +11,7 @@ class Database {
 			}         
         }
         return $DBH;    
-    }     
+    }  
 }
+
+?>
