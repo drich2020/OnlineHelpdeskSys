@@ -3,7 +3,7 @@ include 'init.php';
 if(!$users->isLoggedIn()) {
 	header("Location: login.php");	
 }
-include('inc/header.php');
+include('inccludes/header.php');
 $user = $users->getUserInfo();
 ?>
 <title>Online Helpdesk System</title>
